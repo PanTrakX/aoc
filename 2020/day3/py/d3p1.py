@@ -5,7 +5,6 @@ def main():
     geology = []
     current_pos = [0, 0]
     trees_encountered = 0
-    x_length = 0
 
     with open("../input.txt", "r") as f:
         geology = [line.strip() for line in f]
